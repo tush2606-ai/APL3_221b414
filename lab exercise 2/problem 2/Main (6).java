@@ -6,38 +6,11 @@ C#, OCaml, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS
 Code, Compile, Run and Debug online from anywhere in world.
 
 *******************************************************************************/
-import java.io.*;
- 
-
-class GetSet {
- 
-   
-    private String name;
- 
-    
-    public String getName() { return name; }
- 
-
-    public void setName(String N)
-    {
- 
-       
-        this.name = N;
-    }
-}
- 
-
-class Main {
- 
-    
-    public static void main(String[] args)
-    {
-       
-        GetSet obj = new GetSet();
- 
-        
-        obj.setName("My getter and setter program");
-        
-        System.out.println(obj.getName());
-    }
+public class Main
+{
+	public static void main(String[] args) {
+		voice v=new voice();
+		v.preparevoice();
+		
+	}
 }
